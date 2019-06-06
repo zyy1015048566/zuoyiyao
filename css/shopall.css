@@ -1,0 +1,89 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+.head{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 43px 0px  rgba(41, 167, 255, 0.13);
+}
+.head >span{
+    color: #4ebbfe;
+}
+.head >a{
+    color: #4ebbfe;
+}
+.main{
+    padding: 0.22rem;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main li{
+    padding: 0.22rem;
+    position: relative;
+}
+.tittle span{
+    color: #34da87;
+}
+.one span{
+    color: #4ebbfe;
+}
+.tittle{
+    font-size: 0.32rem;
+    font-weight: bold;
+    margin-bottom: 0.22rem;
+}
+.main li::before{
+    content: '';
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    width: 0.06rem;
+    height: 0.06rem;
+    left: 0;
+    top: 0.4rem;
+
+}
+p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.two img{
+    height: 4rem;
+}
+.three{
+    font-size: 0.26rem;
+}
+.three img{
+    width: 0.32rem;
+    height: 0.32rem;
+}
